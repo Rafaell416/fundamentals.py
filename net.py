@@ -10,3 +10,4 @@ for i, line in enumerate(out, start=1):
     h = os.popen('host {}'.format(ip)).read()
     hostname = h.split(' ')[-1]
     print("{:>3}: {} ({})".format(i, hostname.strip(), ip))
+  
